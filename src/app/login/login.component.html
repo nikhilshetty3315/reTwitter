@@ -1,7 +1,8 @@
-<div class="container" style ="vertical-align:auto">
-  <br />
-  <H1 >Signin!</H1>
-  <br />
+<div class="container">
+  <br>
+  <br>
+  <p><img src="assets/images/logo.png" alt='twitter logo' style='height: 3rem; width: 4rem'></p>
+  <h3>Login to ReTwitter</h3>
   <br />
   <div class="container">
     <div class="alert alert-warning" *ngIf="invalidLogin">
@@ -16,7 +17,20 @@
       <input type="password" name="password" [(ngModel)]='password' />
       <br />
       <br />
-      <button (click)="handleLogin()" class="btn btn-success">Login</button>
+
     </div>
+  </div>
+</div>
+<br>
+
+
+<div class='wrapper'>
+  <div>
+    <button (click)="handleLogin()" class="btn btn-success">Login</button>
+  </div>
+  <div>
+  </div>
+  <div>
+    <button (click)="handleLogin()" class="btn btn-success">Signup</button>
   </div>
 </div>
