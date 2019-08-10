@@ -1,0 +1,16 @@
+#login {
+  color: #ffffff;
+ text-align: center;
+ height: 100vh;
+ background: linear-gradient(135deg, rgb(15, 35, 134) 0%, rgb(15, 35, 134) 15%,rgb(19, 67, 156) 15%, rgb(19, 67, 156) 47%,rgb(23, 99, 178) 47%, rgb(23, 99, 178) 76%,rgb(26, 130, 200) 76%, rgb(26, 130, 200) 92%,rgb(30, 162, 222) 92%, rgb(30, 162, 222) 100%);
+}
+
+.wrapper
+{
+  display: grid;
+  grid-template-columns: 5rem 3rem 5rem;
+  margin-left:0;
+  margin-right: 0;
+  text-align: center;
+  justify-content: center;
+}
