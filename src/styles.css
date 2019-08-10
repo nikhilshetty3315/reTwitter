@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(https://unpkg.com/bootstrap@4.3.1/dist/css/bootstrap.min.css);
+body {
+  vertical-align: super;
+   color: #ffffff;
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(135deg, rgb(15, 35, 134) 0%, rgb(15, 35, 134) 15%,rgb(19, 67, 156) 15%, rgb(19, 67, 156) 47%,rgb(23, 99, 178) 47%, rgb(23, 99, 178) 76%,rgb(26, 130, 200) 76%, rgb(26, 130, 200) 92%,rgb(30, 162, 222) 92%, rgb(30, 162, 222) 100%);
+}
