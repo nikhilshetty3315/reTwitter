@@ -1,7 +1,7 @@
 .gridd
 {
   display: grid;
-  grid-template-columns: 20rem 60rem 20rem;
+  grid-template-columns: 20rem 40rem 20rem;
   margin-left:0;
   margin-right: 0;
   text-align: center;
