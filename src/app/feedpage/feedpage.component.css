@@ -1,9 +1,13 @@
 .gridd
 {
   display: grid;
-  grid-template-columns: 5rem 3rem 5rem;
+  grid-template-columns: 20rem 60rem 20rem;
   margin-left:0;
   margin-right: 0;
   text-align: center;
   justify-content: center;
+  
+}
+ul{
+  list-style-type: none;
 }
