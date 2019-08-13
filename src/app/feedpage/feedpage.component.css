@@ -20,8 +20,8 @@ ul{
 display: grid;
 grid-template-rows: 10rem 20rem;
 grid-row-gap: 20rem;
-text-align: center;
-justify-content: center;
+text-align: left;
+justify-content: left;
 }
 
 .btn{
@@ -40,5 +40,23 @@ justify-content: center;
 }
 .btn1:hover{
   color:#fff;
+  background-color: #3498db;
+}
+.tweetbutn
+{
+  border: 1px solid #74b9ff;
+  background: none;
+  font-size: 15px;
+  
+  cursor: pointer;
+  justify-content: left;
+  border-radius: 15%;
+}
+.butn1{
+  color:#25CCF7;
+}
+.butn1:hover
+{
+  color: #fff;
   background-color: #3498db;
 }
