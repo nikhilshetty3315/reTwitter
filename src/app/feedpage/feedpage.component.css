@@ -1,3 +1,6 @@
+.bodys{
+  margin: 2%;
+ }
 .gridd
 {
   display: grid;
@@ -19,5 +22,23 @@ grid-template-rows: 10rem 20rem;
 grid-row-gap: 20rem;
 text-align: center;
 justify-content: center;
+}
 
+.btn{
+  border: 1px solid #74b9ff;
+  background: none;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  cursor: pointer;
+  transition: 0.8s;
+  margin: 4px;
+  width: 120px;
+}
+.btn1
+{
+   color:#74b9ff
+}
+.btn1:hover{
+  color:#fff;
+  background-color: #3498db;
 }
