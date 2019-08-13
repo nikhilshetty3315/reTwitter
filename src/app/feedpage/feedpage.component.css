@@ -11,3 +11,13 @@
 ul{
   list-style-type: none;
 }
+.tweetfc
+
+{
+display: grid;
+grid-template-rows: 10rem 20rem;
+grid-row-gap: 20rem;
+text-align: center;
+justify-content: center;
+
+}
