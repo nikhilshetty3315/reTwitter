@@ -8,8 +8,8 @@ import { ErrorpageComponent } from './errorpage/errorpage.component';
 const routes: Routes = [
   { path: '', component: LoginComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'welcome', component: WelcomeComponent },
   { path: 'feedpage', component: FeedpageComponent },
+  { path: 'welcome', component: WelcomeComponent },
   { path: '**', component: ErrorpageComponent }
 ];
 
