@@ -1,0 +1,67 @@
+.bodys{
+  margin: 2%;
+ }
+.gridd
+{
+  display: grid;
+  grid-template-columns: 20rem 40rem 20rem;
+  margin-left:0;
+  margin-right: 0;
+  text-align: center;
+  justify-content: center;
+  
+}
+ul{
+  list-style-type: none;
+}
+.tweetfc
+
+{
+display: grid;
+grid-template-rows: 10rem 20rem;
+grid-row-gap: 20rem;
+text-align: left;
+justify-content: left;
+}
+
+.btn{
+  border: 1px solid #74b9ff;
+  background: none;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  cursor: pointer;
+  transition: 0.8s;
+  margin: 4px;
+  width: 120px;
+}
+.btn1
+{
+   color:#74b9ff
+}
+.btn1:hover{
+  color:#fff;
+  background-color: #3498db;
+}
+.tweetbutn
+{
+  border: 1px solid #74b9ff;
+  background: none;
+  font-size: 15px;
+  
+  cursor: pointer;
+  justify-content: left;
+  border-radius: 15%;
+}
+.butn1{
+  color:#25CCF7;
+}
+.butn1:hover
+{
+  color: #fff;
+  background-color: #3498db;
+}
+.icon1{
+  height: 5px;
+  width: 5px;
+  align-content: left;
+}
