@@ -1,0 +1,30 @@
+<div class="navColour">
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div></div>
+      <div class="container">
+        <ul class="navbar-nav">
+          <li>
+            <!-- *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" -->
+            <a routerLink="/welcome" class="nav-link">Home</a>
+          </li>
+          <li>
+            <!-- *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" -->
+            <a routerLink="/feedpage" class="nav-link">Feeds</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="navbar-nav navbar-collapse justify-content-end">
+        <li>
+          <!-- *ngIf="!hardcodedAuthenticationService.isUserLoggedIn()" -->
+          <a routerLink="/login" routerLink="/login" class="nav-link">Login</a>
+        </li>
+        <li>
+          <!-- *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" -->
+          <a routerLink="/logout" routerLink="/logout" class="nav-link">Logout</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>

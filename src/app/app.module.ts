@@ -8,6 +8,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FeedpageComponent } from './feedpage/feedpage.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { LogoutComponent } from './logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { ErrorpageComponent } from './errorpage/errorpage.component';
     LoginComponent,
     FeedpageComponent,
     WelcomeComponent,
-    ErrorpageComponent
+    ErrorpageComponent,
+    NavbarComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
