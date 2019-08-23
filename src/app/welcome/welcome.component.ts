@@ -18,6 +18,17 @@ export class WelcomeComponent implements OnInit {
   }
   getAbout() {
     console.log(this.service.executepostingMethodBeanService());
+
+    this.service.executepostingMethodBeanService().subscribe(
+     response => console.log(response)
+    );
+
+    console.log('last line');
+  }
+
+  // tslint:disable-next-line: ban-types
+  handleSuccessfulResponse(response: Object) {
+    console.log(response);
   }
 }
 
