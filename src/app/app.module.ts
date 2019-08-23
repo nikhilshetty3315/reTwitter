@@ -10,6 +10,7 @@ import { FeedpageComponent } from './feedpage/feedpage.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LogoutComponent } from './logout/logout.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LogoutComponent } from './logout/logout.component';
     WelcomeComponent,
     ErrorpageComponent,
     NavbarComponent,
-    LogoutComponent
+    LogoutComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,

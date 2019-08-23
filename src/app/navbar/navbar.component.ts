@@ -7,12 +7,12 @@ import { HardcodedAuthenticationService } from '../service/hardcoded-authenticat
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
- // isUserLoggedIn: boolean = false;
+ isUserLoggedIn: boolean = false;
 
   constructor(public hardcodedAuthenticationService : HardcodedAuthenticationService) { }
 
   ngOnInit() {
-   // this.isUserLoggedIn = this.hardcodedAuthenticationService.isUserLoggedIn();
+   this.isUserLoggedIn = this.hardcodedAuthenticationService.isUserLoggedIn();
   }
 
 }

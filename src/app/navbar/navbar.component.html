@@ -6,11 +6,11 @@
         <ul class="navbar-nav">
           <li>
             <!-- *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" -->
-            <a *ngIf="hardcodedAuthenticationService.isUserLoggedIn" routerLink="/welcome" class="nav-link">Home</a>
+            <a *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" routerLink="/welcome" class="nav-link">Home</a>
           </li>
           <li>
             <!-- *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" -->
-            <a *ngIf="hardcodedAuthenticationService.isUserLoggedIn" routerLink="/feedpage" class="nav-link">Feeds</a>
+            <a *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" routerLink="/feedpage" class="nav-link">Feeds</a>
           </li>
         </ul>
       </div>
@@ -18,11 +18,11 @@
       <ul class="navbar-nav navbar-collapse justify-content-end">
         <li>
           <!-- *ngIf="!hardcodedAuthenticationService.isUserLoggedIn()" -->
-          <a *ngIf="!hardcodedAuthenticationService.isUserLoggedIn" routerLink="/login" routerLink="/login" class="nav-link">Login</a>
+          <a *ngIf="!hardcodedAuthenticationService.isUserLoggedIn()" routerLink="/login" class="nav-link">Login</a>
         </li>
         <li>
           <!-- *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" -->
-          <a *ngIf="hardcodedAuthenticationService.isUserLoggedIn"routerLink="/logout" routerLink="/logout" class="nav-link">Logout</a>
+          <a *ngIf="hardcodedAuthenticationService.isUserLoggedIn()"routerLink="/logout" class="nav-link">Logout</a>
         </li>
       </ul>
     </nav>
