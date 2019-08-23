@@ -11,7 +11,7 @@ export class AboutDataService {
   ) { }
 
   executepostingMethodBeanService() {
-    this.http.get();
+    return this.http.get('http://localhost:8080/retwitter');
     console.log('i\'m print');
   }
 }

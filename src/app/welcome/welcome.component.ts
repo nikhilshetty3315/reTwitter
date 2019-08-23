@@ -17,7 +17,7 @@ export class WelcomeComponent implements OnInit {
   ngOnInit() {
   }
   getAbout() {
-    this.service.executepostingMethodBeanService();
+    console.log(this.service.executepostingMethodBeanService());
   }
 }
 
