@@ -6,3 +6,6 @@
 <br>
 <button class="btn btn-primary" (click) ="getAbout()">About</button>
 </div>
+<div class="container" *ngIf="aboutMessageFromService">
+    {{aboutMessageFromService}}
+</div>

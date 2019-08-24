@@ -9,6 +9,8 @@ import { AboutDataService } from '../service/data/about-data.service';
 })
 export class WelcomeComponent implements OnInit {
 
+  aboutMessageFromService: String;
+
   constructor(
     private route: ActivatedRoute,
     private service: AboutDataService
@@ -16,20 +18,22 @@ export class WelcomeComponent implements OnInit {
 
   ngOnInit() {
   }
+
   getAbout() {
     console.log(this.service.executepostingMethodBeanService());
 
     this.service.executepostingMethodBeanService().subscribe(
-     response => console.log(response)
+     response =>  this.handleSuccessfulResponse(response)
     );
 
     console.log('last line');
   }
 
+
   // tslint:disable-next-line: ban-types
   handleSuccessfulResponse(response: Object) {
-    console.log(response);
+    this.aboutMessageFromService= response.message;
   }
 }
-
+ 
 
